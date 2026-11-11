@@ -4,7 +4,7 @@ High-performance deterministic transactional engine for sovereign edge computing
 
 ## 🔌 PayPal Sandbox & Edge AI Integration
 
-- **PayPal Sandbox Ingestion:** The gateway adapter (`gateway_adapter.py`) acts as the South Pole ingress point, specifically designed to receive, parse, and validate transactional JSON payloads originating from the PayPal Developer Sandbox environment.
+- **PayPal Sandbox Ingestion:** The gateway adapter (`gateway_adapter.py`) acts as the primary ingress endpoint, specifically designed to receive, parse, and validate transactional JSON payloads originating from the PayPal Developer Sandbox environment.
 - **Predictive Edge AI Core:** The system utilizes a local mathematical and topological intelligence model (`rk4_predictive_core.py` and `topological_classifier.py`) performing Runge-Kutta 4th-order derivative calculations to autonomously analyze, score, and predict risk vectors in real-time, functioning as a sovereign edge AI node without external cloud dependencies.
 
 ## 🏛️ System Architecture
